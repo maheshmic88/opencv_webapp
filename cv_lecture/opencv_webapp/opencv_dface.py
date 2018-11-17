@@ -21,6 +21,7 @@ def opencv_dface(path):
             img = cv2.resize(img, (int(w), int(h)))
 
         baseUrl = settings.MEDIA_ROOT_URL + settings.MEDIA_URL
+        print(baseUrl + 'haarcascade_frontalface_default.xml')
         face_cascade = cv2.CascadeClassifier(baseUrl + 'haarcascade_frontalface_default.xml')
         eye_cascade = cv2.CascadeClassifier(baseUrl + 'haarcascade_eye.xml')
 
