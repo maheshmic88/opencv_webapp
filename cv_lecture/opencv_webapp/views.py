@@ -41,7 +41,8 @@ def dface(request):
                     obs.delete()
 
             imageURL = settings.MEDIA_URL + form.instance.document.name
-            opencv_dface(settings.MEDIA_ROOT_URL + imageURL)
+            imageURL2 = settings.MEDIA_ROOT_URL + imageURL
+            opencv_dface(imageURL2)
 
             return render(request, 'opencv_webapp/dface.html', {'form': form, 'post': post})
     else:
