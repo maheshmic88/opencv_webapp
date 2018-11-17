@@ -7,6 +7,7 @@ from . import views
 urlpatterns = [
     url(r'^$', views.first_view, name='first_view'),
     url(r'^uimage/$', views.uimage, name='uimage'),
+    url(r'^dface/$', views.dface, name='dface'),
 ]
 
 urlpatterns += static(settings.MEDIA_URL,

@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fa04886-edb6-4482-a8d1-c398be5b6122" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/opencv_webapp/opencv_dface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv_webapp/templates/opencv_webapp/dface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cvlecture_site/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvlecture_site/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv_webapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_webapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv_webapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_webapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv_webapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_webapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv_webapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_webapp/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,28 +27,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
-          <entry key="py" value="14" />
+          <entry key="html" value="3" />
+          <entry key="py" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
-          <entry key="Python" value="14" />
+          <entry key="HTML" value="3" />
+          <entry key="Python" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
           <entry key="html" value="367" />
-          <entry key="py" value="1115" />
+          <entry key="py" value="1192" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="367" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="1115" />
+          <entry key="Python" value="1192" />
         </counts>
       </usages-collector>
     </session>
@@ -49,22 +56,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cvlecture_site/urls.py">
+        <entry file="file://$PROJECT_DIR$/opencv_webapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="135">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
               <folding>
-                <element signature="e#638#670#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/opencv_webapp/urls.py">
+        <entry file="file://$PROJECT_DIR$/opencv_webapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" selection-start-column="32" selection-end-column="32" />
+            <state relative-caret-position="105">
+              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -72,10 +79,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opencv_webapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opencv_webapp/templates/opencv_webapp/dface.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/opencv_webapp/opencv_dface.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cvlecture_site/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            <state relative-caret-position="287">
+              <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -113,10 +138,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opencv_webapp/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            <state relative-caret-position="195">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding>
-                <marker date="1542443117490" expanded="true" signature="60:65" ph="..." />
+                <element signature="e#0#24#0" expanded="true" />
+                <marker date="1542460715488" expanded="true" signature="112:117" ph="..." />
               </folding>
             </state>
           </provider>
@@ -136,8 +162,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -149,11 +175,14 @@
       <list>
         <option value="$PROJECT_DIR$/cvlecture_site/urls.py" />
         <option value="$PROJECT_DIR$/opencv_webapp/templates/opencv_webapp/first_view.html" />
-        <option value="$PROJECT_DIR$/opencv_webapp/forms.py" />
-        <option value="$PROJECT_DIR$/opencv_webapp/urls.py" />
-        <option value="$PROJECT_DIR$/opencv_webapp/views.py" />
         <option value="$PROJECT_DIR$/opencv_webapp/templates/opencv_webapp/uimage.html" />
         <option value="$PROJECT_DIR$/cvlecture_site/settings.py" />
+        <option value="$PROJECT_DIR$/opencv_webapp/urls.py" />
+        <option value="$PROJECT_DIR$/opencv_webapp/models.py" />
+        <option value="$PROJECT_DIR$/opencv_webapp/forms.py" />
+        <option value="$PROJECT_DIR$/opencv_webapp/views.py" />
+        <option value="$PROJECT_DIR$/opencv_webapp/templates/opencv_webapp/dface.html" />
+        <option value="$PROJECT_DIR$/opencv_webapp/opencv_dface.py" />
       </list>
     </option>
   </component>
@@ -180,6 +209,11 @@
               <item name="cv_lecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="cv_lecture" type="462c0819:PsiDirectoryNode" />
               <item name="cvlecture_site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cv_lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cv_lecture" type="462c0819:PsiDirectoryNode" />
+              <item name="opencv_webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,37 +324,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opencv_webapp/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding>
-            <marker date="1542443117490" expanded="true" signature="60:65" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv_webapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv_webapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/opencv_webapp/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opencv_webapp/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/opencv_webapp/templates/opencv_webapp/uimage.html">
@@ -341,8 +345,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cvlecture_site/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        <state relative-caret-position="287">
+          <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv_webapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv_webapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv_webapp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1542460715488" expanded="true" signature="112:117" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv_webapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv_webapp/templates/opencv_webapp/dface.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv_webapp/opencv_dface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -4,10 +4,10 @@ from django.shortcuts import render
 from django.shortcuts import redirect
 from .forms import UploadImageForm
 from django.core.files.storage import FileSystemStorage
-#from .forms import ImageUploadForm
+from .forms import ImageUploadForm
 from django.conf import settings
-#from .opencv_dface import opencv_dface
-#from .models import ImageUploadModel
+from .opencv_dface import opencv_dface
+from .models import ImageUploadModel
 
 def first_view(request):
     return render(request, 'opencv_webapp/first_view.html', {})
@@ -25,7 +25,7 @@ def uimage(request):
     else:
         form = UploadImageForm()
         return render(request, 'opencv_webapp/uimage.html', {'form': form})
-"""
+
 def dface(request):
     if request.method == 'POST':
         form = ImageUploadForm(request.POST, request.FILES)
@@ -46,5 +46,3 @@ def dface(request):
     else:
         form = ImageUploadForm()
     return render(request, 'opencv_webapp/dface.html', {'form': form})
-"""
-
