@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fa04886-edb6-4482-a8d1-c398be5b6122" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/opencv_webapp/opencv_dface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opencv_webapp/templates/opencv_webapp/dface.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvlecture_site/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvlecture_site/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv_webapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_webapp/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/opencv_webapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_webapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv_webapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_webapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv_webapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_webapp/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,14 +34,14 @@
         <counts>
           <entry key="dummy" value="5" />
           <entry key="html" value="367" />
-          <entry key="py" value="1192" />
+          <entry key="py" value="1193" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="367" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="1192" />
+          <entry key="Python" value="1193" />
         </counts>
       </usages-collector>
     </session>
@@ -67,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/opencv_webapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+              <caret line="7" column="61" lean-forward="true" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -94,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opencv_webapp/opencv_dface.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -178,11 +171,11 @@
         <option value="$PROJECT_DIR$/opencv_webapp/templates/opencv_webapp/uimage.html" />
         <option value="$PROJECT_DIR$/cvlecture_site/settings.py" />
         <option value="$PROJECT_DIR$/opencv_webapp/urls.py" />
-        <option value="$PROJECT_DIR$/opencv_webapp/models.py" />
         <option value="$PROJECT_DIR$/opencv_webapp/forms.py" />
         <option value="$PROJECT_DIR$/opencv_webapp/views.py" />
         <option value="$PROJECT_DIR$/opencv_webapp/templates/opencv_webapp/dface.html" />
         <option value="$PROJECT_DIR$/opencv_webapp/opencv_dface.py" />
+        <option value="$PROJECT_DIR$/opencv_webapp/models.py" />
       </list>
     </option>
   </component>
@@ -360,13 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opencv_webapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/opencv_webapp/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -399,6 +385,13 @@
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv_webapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="61" lean-forward="true" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
         </state>
       </provider>
     </entry>
