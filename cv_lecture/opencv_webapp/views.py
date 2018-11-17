@@ -26,6 +26,7 @@ def uimage(request):
         form = UploadImageForm()
         return render(request, 'opencv_webapp/uimage.html', {'form': form})
 
+
 def dface(request):
     if request.method == 'POST':
         form = ImageUploadForm(request.POST, request.FILES)

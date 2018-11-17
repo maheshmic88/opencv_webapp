@@ -1,6 +1,6 @@
 from django import forms
 
-from opencv_webapp.models import ImageUploadModel
+from .models import ImageUploadModel
 
 
 class UploadImageForm(forms.Form):
@@ -12,4 +12,4 @@ class UploadImageForm(forms.Form):
 class ImageUploadForm(forms.ModelForm):
     class Meta:
         model = ImageUploadModel
-        fields = ('description', 'document' )
+        fields = ('description', 'document')

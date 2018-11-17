@@ -11,11 +11,11 @@
 <form method="post" class="post - form" enctype="multipart/form-data">
     {% csrf_token %}
     {{form.as_p}}
-    <button type="submit" class="save btn btn-default" value="Upload">Save</button>
+    <button type="submit" class="save btn btn-default" value="upload">Save</button>
 </form>
 
 {% if uploaded_file_url %}
-    <img src="{{ uploaded_file_url }}"
+    <img src="{{ uploaded_file_url }}">
          <p>File uploaded at: <a href="{{ uploaded_file_url }}">{{ uploaded_file_url }}</a> </p>
 {% endif %}
 
